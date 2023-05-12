@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>learning</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script type="text/javascript" src="assets/jquery.min.js"></script>
+
+
+        <link href="assets/fractionslider/css/fractionslider.css" rel="stylesheet" />
+        <script type="text/javascript" src="assets/fractionslider/jquery.fractionslider.min.js"></script>
+
+
+        <!--wow js-->
+        <link rel="stylesheet" href="wow/css/libs/animate.css">
+        <script src="WOW/dist/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+
+
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                <nav>
+                    <div class="fwc" id="topmenu">
+                        <ul>
+                            <li><a href="#top" class="active">خانه</a></li>
+                            <li><a href="#row1">درباره ما</a></li>
+                            <li><a href="#row2">خدمات ما</a></li>
+                            <li><a href="#row3">تیم ما</a></li>
+                            <li><a href="#row4">تماس با ما</a></li>
+                        </ul>
+                        <div class="headerlogo">
+                            <img src="images/logo.png" alt="logo" title="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--SLIDER-->
+            <section class="sliderwrapper" id="top">
+                <div class="fwc" id="slider">
+                        <div class="slide">
+                                <img data-position="120,800" data-in="topLeft" data-out="top" data-delay="100" src="images/logo-big.png"/>
+                                <div class="slidetext" data-in="right" data-position="140,100" data-delay="300">  مرجع تخصصی آموزش برنامه نویسی و طراحی وب</div>
+                                <div class="slidetext" data-in="right" data-position="200,100" data-delay="500">خاص بودن را با ما تجربه کنید</div>
+                                <div class="slidetext" data-in="right" data-position="260,100" data-delay="700">اموزش رایگان</div>
+                            </div>
+                            <div class="slide">
+                                <img data-position="150,650" data-in="bottom" data-delay="200" src="images/responsive.png" width="500px"/>
+                                <img data-position="80,380" data-in="top" data-delay="100" src="images/Webdesign.png" width="200px"/>
+                                <div class="slidetext" data-in="right" data-position="300,80" data-delay="400">طراحی وب حرفه ای</div>
+                                <div class="slidetext" style="transform: rotate(20deg)" data-in="right" data-position="390,80" data-delay="600">طراحی واکنشگرا</div>
+                                <div class="slidetext" style="transform: rotate(-35deg)" data-in="bottom" data-position="370,280" data-delay="800">کدنویسی استاندارد</div>
+                            </div>
+                            <div class="slide">
+                                <div class="slidetext" data-in="top" data-position="200,100" data-delay="100">دوره های آموزشی طراحی وب</div>
+                                <div class="slidetext" data-in="right" data-position="270,100" data-delay="300">مدرسین با تجربه و متخصص</div>
+                                <div class="slidetext" data-in="bottom" data-position="340,100" data-delay="500">پایه تا پیشرفته</div>
+                                <img data-position="120,600" data-in="bottom" data-out="bottom" data-delay="500" src="images/course.png" width="500px"/>
+                            </div>
+                </div>
+            </section>
+        </div>
+        <script>
+                $('#slider').fractionSlider({
+                    timeout : 5000 ,
+                    speedIn : 1000,
+                    pager:true,
+                });
+        </script>
+        <!--ROW 1 ABOUT US-->
+        <section class="rowcontainer white" id="row1">
+            <div class="row fwc">
+                <div class="title1 wow bounceIn" data-wow-offset="200" data-wow-delay="1000ms">
+                    <h2>درباره ما</h2>
+                    <p class="lead">کیفیت بالای آموزشی را از ما بخواهید</p>
+                </div>
+                <div class="content1">
+                    <div class="box1 wow slideInRight" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/picture.png" alt="#" title="#">
+                        <h3>کیفیت</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="box1 wow slideInDown" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/modares.png" alt="#" title="#">
+                        <h3>مدرسین با تجریه</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="box1 wow slideInLeft" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/customer.png" alt="#" title="#">
+                        <h3>مشتری مداری</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="box1 wow slideInRight" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/browser.png" alt="#" title="#">
+                        <h3>خلاقیت</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="box1 wow slideInUp" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/price.png" alt="#" title="#">
+                        <h3>قیمت مناسب</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="box1 wow slideInLeft" data-wow-offset="200" data-wow-delay="100ms">
+                        <img src="images/support.png" alt="#" title="#">
+                        <h3>پشتیبانی قوی</h3>
+                        <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        
+        <!--ROW 2 PROUDUCTS-->
+        <section class="rowcontainer silver" id="row2">
+            <div class="row fwc">
+                <div id="prudocts">
+                    <img class="left wow bounceIn" data-wow-offset="200" data-wow-delay="100ms" src="images/responsive.png" alt="responsive">
+                    <div class="content2 right wow slideInRight" data-wow-offset="200" data-wow-delay="300ms">
+                        <h3>طراحی وب واکنش گرا</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                             از صنعت چاپ و با
+                              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                              روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                              برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای 
+                             متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                              کتابهای زیادی در شصت و سه درصد گذشته، حال و 
+                             آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با 
+                             نرم افزارها شناخت بیستری را برای طراحان رایانه ای
+                              و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این 
+                             صورت می توان امید داشت که تمام و دشواری موجود
+                              در ارائه راهکارها و شرایط سخت تایپ به پایان 
+                             رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای 
+                             اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود 
+                             طراحی اساسا مورد استفاده قرار گیرد.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <div id="prudocts">
+                        <img class="right wow bounceIn" data-wow-offset="200" data-wow-delay="100ms" src="images/course.png" alt="responsive">
+                        <div class="content2 left wow slideInLeft" data-wow-offset="200" data-wow-delay="300ms">
+                            <h3>دوره های برنامه نویسی</h3>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                                 از صنعت چاپ و با
+                                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                                  روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                  برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای 
+                                 متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                  کتابهای زیادی در شصت و سه درصد گذشته، حال و 
+                                 آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با 
+                                 نرم افزارها شناخت بیستری را برای طراحان رایانه ای
+                                  و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این 
+                                 صورت می توان امید داشت که تمام و دشواری موجود
+                                  در ارائه راهکارها و شرایط سخت تایپ به پایان 
+                                 رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای 
+                                 اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود 
+                                 طراحی اساسا مورد استفاده قرار گیرد.</p>
+
+                                 <span class="text-center m30">
+                                        <a href="#" class="btn btn-green">ثبت نام</a>
+                                        <a href="#" class="btn btn-blue">لیست دوره ها</a>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+            </div>
+        </section>
+            <!--ROW 3 ABPUT TEAM-->
+        <section class="rowcontainer white" id="row3">
+                <div class="row fwc">
+                        <div class="title1 wow bounceIn" data-wow-offset="200" data-wow-delay="1000ms">
+                                <h2>تیم ما</h2>
+                                <p class="lead">تیم مجرب و متخصص ما در خدمت شماست</p>
+                            </div>
+                            <div class="content1">
+                                <div class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="100ms">
+                                    <img src="images/loghman.png" alt="#" title="#">
+                                    <h3>لقمان آوند</h3>
+                                    <p class="lead">مدیر و موسس سون لرن، دانشجوی دکترای نرم افزار با 10 سال سابقه برنامه نویسی و طراحی وب</p>
+                                </div>
+                                <div class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="200ms">
+                                    <img src="images/vahid.jpeg" alt="#" title="#">
+                                    <h3>وحید صالحی</h3>
+                                    <p class="lead">مدرس و نویسنده ارشد سون لرن، کارشناس نرم افزار با بیش از 4 سال سابقه فعالیت آموزشی</p>
+                                </div>
+                                <div class="box1 box1 wow bounceIn" data-wow-offset="200" data-wow-delay="300ms">
+                                    <img src="images/javad.png" alt="#" title="#">
+                                    <h3>جواد باقی</h3>
+                                    <p class="lead">طراح وب و رابط کاربری، دانشجوی مهندسی صنایع با بیش از 4 سال سابقه طراحی وب حرفه ای</p>
+                                </div>
+                </div>
+                <div class="clear"></div>
+        </section>
+
+        <!-- Row 4 : contact us -->
+    <section class="rowContainer silver" id="row4">
+            <div class="row fwc">
+                <div class="left wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms" style="width:50%;">
+                    <h3>تماس با ما</h3>
+                    <form action="#" method="post">
+                        <input type="text" name="uname" placeholder="نام شما">
+                        <input type="text" name="email" placeholder="ایمیل شما">
+                        <textarea name="msg" cols="30" rows="5" placeholder="پیام شما ..."></textarea>
+                        <input type="submit" class="btn" value="ارسال پیام">
+                        <input type="reset" class="btn btn-orange" value="پاک کردن فرم">
+                    </form>
+                </div>
+                <div class="right wow fadeInRight" wow-data-offset="400" wow-data-delay="500ms">
+                    <h3>اطلاعات تماس</h3>
+                    <script type="text/javascript" src="http://www.webestools.com/google_map_gen.js?lati=37.0625&long=-95.6770&zoom=4&width=500&height=250&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle="></script><br /><a href="http://www.webestools.com/google-maps-code-generator-insert-map-on-website-javascript-free-google-map-script.html">Google Maps code Generator</a>
+                    <div class="info">
+                        <span class="bold">شماره تماس : </span><span>091xxxxxxxxx</span><br>
+                        <span class="bold">آدرس : </span><span>شیراز، حافظیه، آرامگاه حافظ</span><br>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="social">
+                    <p class="wow fadeIn" wow-data-offset="290" >در شبکه های اجتماعی با ما همراه باشید</p>
+                    <ul class=" wow fadeIn" wow-data-offset="300">
+                        <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                        <li><a href="#"><img src="images/google-plus.png" alt="google plus"></a></li>
+                        <li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <footer id="footer">
+            <p class="wow fadeInUp">تمامی حقوق نرم افزاری این وبسایت متعلق به این شرکت  می باشد .</p>
+        </footer>
+
+        <script src="assets/scripts.js"></script>
+    </body>
+</html>
